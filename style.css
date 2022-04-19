@@ -74,7 +74,7 @@ body {
   width: 300px;
   height: 550px;
   background: linear-gradient(to bottom, transparent, black),
-    url(/lang.jpg);
+    url(./lang.jpg);
   background-size: cover;
   border-radius: 5%;
   box-shadow: 0 0 12px 5px rgba(0, 0, 0, 0.5);
