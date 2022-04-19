@@ -1,0 +1,389 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:ital,wght@1,200&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+
+#floor {
+  position: absolute;
+  width: 100%;
+  top: 40%;
+}
+.scene {
+  position: relative;
+  height: 1000px;
+  padding-top: 500px;
+}
+body {
+  background-color: #F6F6F6;
+  overflow-x: hidden;
+  position: relative;
+}
+#trees {
+  position: absolute;
+  width: 2500px;
+  left: -5.7%;
+  top: -30%;
+  bottom: 100%;
+  margin-top: -100px;
+  transition: all 500ms ease;
+}
+#water {
+  width: 2290px;
+  position: absolute;
+  top: 43%;
+  left: -1%;
+}
+.deep {
+  display: flex;
+  position: relative;
+  padding: 5rem 20rem;
+  width: 5000px;
+  height: 2300px;
+  top: 80.2%;
+  left: -1%;
+  background: linear-gradient(#01888e, #01488e);
+}
+.title {
+  position: absolute;
+  left: 40%;
+  margin-top: 25%;
+  font-size: 100px;
+  transition: all 500ms ease;
+}
+.content {
+  position: absolute;
+  right: 150%;
+  width: fit-content;
+  color: white;
+}
+.cards {
+  position: absolute;
+  top: 30%;
+}
+.content-content {
+  font-size: 45px;
+  width: 550px;
+  transition: all 500ms ease;
+
+}
+.card {
+  position: relative;
+  width: 300px;
+  height: 550px;
+  background: linear-gradient(to bottom, transparent, black),
+    url(/lang.jpg);
+  background-size: cover;
+  border-radius: 5%;
+  box-shadow: 0 0 12px 5px rgba(0, 0, 0, 0.5);
+  color: white;
+  font-weight: 500;
+  overflow: hidden;
+  transition: transform 800ms ease;
+  transition: all 500ms ease;
+}
+.card-f {
+    position: relative;
+    width: 300px;
+    height: 550px;
+    background: linear-gradient(to bottom, transparent, black),
+      url(./ashkan-forouzani-v31lgBn5114-unsplash.jpg);
+    background-size: cover;
+    border-radius: 5%;
+    box-shadow: 0 0 12px 5px rgba(0, 0, 0, 0.5);
+    color: white;
+    font-weight: 500;
+    overflow: hidden;
+    transition: transform 800ms ease;
+  transition: all 500ms ease;
+
+}
+.card-body-f{
+  font-size: 30px;
+
+}
+.card-title-f {
+    left: 5%;
+    font-size: 40px;
+    font-weight: 600;
+ }
+ .card-content-f {
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    transition: transform 500ms ease;
+    transition-delay: 500ms;
+}
+.card-f:hover .card-content-f{
+  transform: translateY(-400px);
+
+}
+.card:hover{
+    transform: scale(1.05);
+}
+.card-f:hover{
+    transform: scale(1.05);
+}
+.card-title-f::after {
+    content: "";
+    position: absolute;
+    background-color: rgb(120, 231, 120);
+    border-radius: 10%;
+    width: 2500px;
+    height: 5px;
+    top: 26.8%;
+    transform-origin: left;
+    left: -2%;
+    transform: scaleX(0);
+    transition: transform 500ms ease;
+  }
+
+
+  .ng::after {
+    content: "";
+    position: absolute;
+    background-color: rgb(231, 151, 120);
+    border-radius: 10%;
+    width: 240px;
+    height: 5px;
+    top: 42%;
+    transform-origin: left;
+    left: -2%;
+    transform: scaleX(0);
+    transition: transform 500ms ease;
+  }
+  .ef::after {
+    content: "";
+    position: absolute;
+    background-color: rgb(231, 151, 120);
+    border-radius: 10%;
+    width: 240px;
+    height: 5px;
+    top: 58%;
+    transform-origin: left;
+    left: -2%;
+    transform: scaleX(0);
+    transition: transform 500ms ease;
+  }
+  .react::after {
+    content: "";
+    position: absolute;
+    background-color: rgb(231, 151, 120);
+    border-radius: 10%;
+    width: 150px;
+    height: 5px;
+    top: 76%;
+    transform-origin: left;
+    left: -2%;
+    transform: scaleX(0);
+    transition: transform 500ms ease;
+  }
+  .asp::after {
+    content: "";
+    position: absolute;
+    background-color: rgb(231, 151, 120);
+    border-radius: 10%;
+    width: 150px;
+    height: 5px;
+    top: 94%;
+    transform-origin: left;
+    left: -2%;
+    transform: scaleX(0);
+    transition: transform 500ms ease;
+  }
+  .card-f:hover .card-title-f::after{
+      transform: scaleX(1);
+  }
+
+
+  .card-f:hover .react::after {
+    transform: scaleX(1);
+  }
+.card-f:hover .asp::after {
+  transform: scaleX(1);
+}
+.card-f:hover .ng::after {
+  transform: scaleX(1);
+}
+.card-f:hover .ef::after {
+  transform: scaleX(1);
+}
+.card-f:hover .C::after {
+  transform: scaleX(1);
+}
+
+
+
+
+
+
+
+
+
+
+.card-title {
+  left: 5%;
+  font-size: 40px;
+  font-weight: 600;
+
+}
+.card-body {
+  font-size: 30px;
+}
+.card-content {
+  position: absolute;
+  top: 80%;
+  left: 10%;
+  transition: transform 500ms ease;
+  transition-delay: 500ms;
+}
+.C {
+  transition: transform 500ms ease;
+}
+.card-title::after {
+  content: "";
+  position: absolute;
+  background-color: rgb(120, 231, 120);
+  border-radius: 10%;
+  width: 2500px;
+  height: 5px;
+  top: 20.2%;
+  transform-origin: left;
+  left: -2%;
+  transform: scaleX(0);
+  transition: transform 500ms ease;
+}
+.C::after {
+  content: "";
+  position: absolute;
+  background-color: rgb(231, 151, 120);
+  border-radius: 10%;
+  width: 240px;
+  height: 5px;
+  top: 36%;
+  transform-origin: left;
+  left: -2%;
+  transform: scaleX(0);
+  transition: transform 500ms ease;
+}
+.python::after {
+  content: "";
+  position: absolute;
+  background-color: rgb(231, 151, 120);
+  border-radius: 10%;
+  width: 150px;
+  height: 5px;
+  top: 52%;
+  transform-origin: left;
+  left: -2%;
+  transform: scaleX(0);
+  transition: transform 500ms ease;
+}
+.sql::after {
+  content: "";
+  position: absolute;
+  background-color: rgb(231, 151, 120);
+  border-radius: 10%;
+  width: 150px;
+  height: 5px;
+  top: 68%;
+  transform-origin: left;
+  left: -2%;
+  transform: scaleX(0);
+  transition: transform 500ms ease;
+}
+.css::after {
+  content: "";
+  position: absolute;
+  background-color: rgb(231, 151, 120);
+  border-radius: 10%;
+  width: 150px;
+  height: 5px;
+  top: 80%;
+  transform-origin: left;
+  left: -2%;
+  transform: scaleX(0);
+  transition: transform 500ms ease;
+}
+.js::after{
+    content: "";
+    position: absolute;
+    background-color: rgb(231, 151, 120);
+    border-radius: 10%;
+    width: 200px;
+    height: 5px;
+    top: 96%;
+    transform-origin: left;
+    left: -2%;
+    transform: scaleX(0);
+    transition: transform 500ms ease;
+}
+.card:hover .js::after {
+    transform: scaleX(1);
+  }
+.card:hover .css::after {
+  transform: scaleX(1);
+}
+.card:hover .sql::after {
+  transform: scaleX(1);
+}
+.card:hover .python::after {
+  transform: scaleX(1);
+}
+.card:hover .C::after {
+  transform: scaleX(1);
+}
+.card:hover .card-title::after {
+  transform: scaleX(1);
+}
+.card:hover .card-content {
+  transform: translateY(-400px);
+}
+.ml-5{
+    margin-left: 50rem;
+}
+
+
+
+
+.footer{
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  top: 306.9%;
+  height: 150px;
+  width: 115%;
+  padding: 2rem 25rem;
+  left: -2%;
+  z-index: 1;
+  margin: 0;
+  background-color:#003A5E;
+}
+.birds{
+  width: 100px;
+  position: absolute;
+  left: 50%;
+  top: 12%;
+  z-index: -1;
+}
+ul{
+  display: flex;
+  justify-content: space-between;
+}
+li{
+  list-style: none;
+
+}
+a{
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+.ml-1{
+  margin-left: 10px;
+}
+.mt-2{
+  margin-top: 200px;
+}
